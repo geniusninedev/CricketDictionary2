@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/tutorials"
+        android:background="@drawable/background"
+        android:divider="@drawable/divider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:text=""
+        android:textSize="25dp"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewtut" />
+</LinearLayout>

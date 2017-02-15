@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geniusnine.android.cricketdictionary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+       <activity android:name=".CricketDimensions.CricketDimensions"
+           android:label="@string/app_name8">
+
+       </activity>
+
+        <activity android:name=".CricketRules"
+            android:label="@string/app_name9"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+
+        </activity>
+        <activity android:name=".Others"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_name30" >
+
+        </activity>
+
+        <activity android:name=".CricketDimensions.CricketBall"
+            android:label="@string/app_name6">
+
+        </activity>
+        <activity android:name=".CricketDimensions.CricketBat"
+            android:label="@string/app_name5">
+
+        </activity>
+
+        <activity android:name=".CricketDimensions.CricketGround"
+            android:label="@string/app_name4">
+
+        </activity>
+
+<activity android:name=".CricketDimensions.CricketStumps"
+    android:label="@string/app_name3" >
+
+</activity>
+        <activity android:name=".CricketTerms.CricketBoards"
+            android:label="@string/app_name2">
+
+        </activity>
+
+        <activity android:name=".CricketFieldng"
+            android:label="@string/app_name10" >
+
+        </activity>
+
+        <activity android:name=".TournamentsDetails"
+            android:label="@string/app_name21"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+
+        </activity>
+
+  <activity android:name=".CricketTerms.CricketPitch"
+      android:label="@string/app_name7">
+
+  </activity>
+
+        <activity android:name=".CricketTerms.CricketTerms"
+            android:label="@string/app_name1"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+
+        </activity>
+
+        <activity android:name=".CricketUmpiring"
+            android:label="@string/app_name11"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+
+        </activity>
+
+    </application>
+
+</manifest>
